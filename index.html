@@ -3,18 +3,63 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Privacy Policy – Planotrak</title>
+  <title>Privacy Policy – PlanoTrak</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 720px; margin: 40px auto; padding: 0 20px; color: #333; line-height: 1.6; }
+    h1 { color: #2d6a2e; }
+    h2 { color: #444; margin-top: 28px; }
+    a { color: #2d6a2e; }
+    .updated { color: #888; font-style: italic; }
+    .nav { margin-bottom: 30px; padding-bottom: 10px; border-bottom: 1px solid #eee; }
+    .nav a { margin-right: 20px; text-decoration: none; font-weight: 600; }
+  </style>
 </head>
 <body>
-  <h1>Privacy Policy for Planotrak</h1>
-  <p>The <strong>Planotrak</strong> application does not collect any personal data beyond the following:</p>
+  <div class="nav">
+    <a href="./">Privacy Policy</a>
+    <a href="./terms">Terms of Use</a>
+  </div>
+
+  <h1>Privacy Policy for PlanoTrak</h1>
+
+  <h2>Information We Collect</h2>
+  <p>The <strong>PlanoTrak</strong> app collects and processes data necessary for its core construction project-management functionality:</p>
   <ul>
-    <li><strong>Push Notifications</strong> – used to send reminders about project deadlines and budget limits.</li>
-    <li><strong>Local Storage</strong> – we store projects, tasks, materials, time entries, and language settings locally in your browser.</li>
+    <li><strong>Account Information</strong> – When you create an account, we collect your name and email address for authentication purposes via Firebase Authentication.</li>
+    <li><strong>Project Data</strong> – Project details, tasks, workers, materials, expenses, invoices, time entries, and site diary records you create within the app.</li>
+    <li><strong>Team Data</strong> – When using team features, project data is synchronized between team members via Google Firebase Firestore.</li>
+    <li><strong>Push Notifications</strong> – Used to send reminders about project deadlines, budget alerts, and worker payment schedules.</li>
+    <li><strong>Location Data</strong> – If you enable location services, we use your location to detect proximity to project sites for clock-in reminders. Location data is not shared with third parties.</li>
+    <li><strong>Photos &amp; Camera</strong> – Used for receipt scanning, task attachments, site diary photos, and plan annotations. Photos are stored locally or in your iCloud account.</li>
+    <li><strong>Local Storage</strong> – Project data, settings, and language preferences are stored locally on your device and synced via iCloud.</li>
   </ul>
-  <p>We do not transmit data to third parties and we do not use tracking or analytics.</p>
+
+  <h2>Cloud Services</h2>
+  <p>PlanoTrak uses the following cloud services:</p>
+  <ul>
+    <li><strong>Apple iCloud</strong> – For syncing project data across your own Apple devices.</li>
+    <li><strong>Google Firebase</strong> – For user authentication, team data synchronization (Firestore), and cloud functions. Data is stored in Firebase servers within the EU/US region.</li>
+    <li><strong>OpenAI API</strong> – When you use AI features (task suggestions, receipt scanning, AI assistant), relevant project context is sent to OpenAI for processing. No personal data beyond project task/material descriptions is shared.</li>
+  </ul>
+
+  <h2>Data Sharing</h2>
+  <p>We do not sell, trade, or rent your personal data to third parties. Data is only shared:</p>
+  <ul>
+    <li>With team members you explicitly invite to your workspace.</li>
+    <li>With cloud service providers (Apple, Google Firebase) as described above, solely for app functionality.</li>
+  </ul>
+
+  <h2>Data Retention</h2>
+  <p>Your data is retained as long as your account is active. You can delete your data at any time by deleting projects within the app or by contacting us to request full account deletion.</p>
+
+  <h2>Children's Privacy</h2>
+  <p>PlanoTrak is not directed at children under 13. We do not knowingly collect personal information from children.</p>
+
+  <h2>Changes</h2>
+  <p>We may update this policy from time to time. We will notify users of significant changes through the app.</p>
+
   <h2>Contact</h2>
   <p>If you have any questions regarding privacy, please email us at <a href="mailto:info@planotrak.com">info@planotrak.com</a>.</p>
-  <p><em>Last updated: 17 May 2025</em></p>
+  <p class="updated">Last updated: March 4, 2026</p>
 </body>
 </html>
